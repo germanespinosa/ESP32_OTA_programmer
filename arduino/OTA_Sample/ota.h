@@ -1,7 +1,7 @@
 #pragma once
 #include <WiFi.h>
 
-#define OTA_CHUNK_SIZE 40000
+#define OTA_CHUNK_SIZE 40960
 
 #define OTA(PORT) \
   WiFiServer ota_Server(PORT);\

@@ -1,6 +1,5 @@
 #include <iomanip>
 #include <easy_tcp.h>
-#include <thread>
 #include <chrono>
 #include <iostream>
 #include <fstream>
